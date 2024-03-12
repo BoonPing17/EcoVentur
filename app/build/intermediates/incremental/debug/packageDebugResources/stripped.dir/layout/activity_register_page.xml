@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pagebackground"
+    tools:context=".ui.user.RegisterPageActivity">
+
+    <TextView
+        android:id="@+id/LoginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER NEW ACCOUNT"
+        android:fontFamily="@font/alata"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="369dp"
+        android:layout_height="70sp"
+        android:layout_marginTop="200sp"
+        android:background="#AEFFFFFF"
+        android:drawableLeft="@drawable/baseline_local_phone_24"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:fontFamily="@font/amaranth"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:inputType="phone"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoginText" />
+
+    <EditText
+        android:id="@+id/registerUsername"
+        android:layout_width="369dp"
+        android:layout_height="70sp"
+        android:layout_marginTop="32sp"
+        android:background="#AEFFFFFF"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="Username"
+        android:fontFamily="@font/amaranth"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoginText" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="369dp"
+        android:layout_height="70sp"
+        android:layout_marginTop="116sp"
+        android:background="#AEFFFFFF"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="Email Address"
+        android:fontFamily="@font/amaranth"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoginText" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="369dp"
+        android:layout_height="70sp"
+        android:layout_marginTop="284sp"
+        android:background="#AEFFFFFF"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="Password"
+        android:fontFamily="@font/amaranth"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoginText" />
+
+    <Button
+        android:id="@+id/BtnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="456sp"
+        android:backgroundTint="#FFFDC8"
+        android:text="Register"
+        android:fontFamily="@font/amaranth"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoginText" />
+
+    <TextView
+        android:id="@+id/ToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="4sp"
+        android:text="Already have an account? Login here."
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnRegister" />
+
+    <EditText
+        android:id="@+id/ConfirmPassword"
+        android:layout_width="369dp"
+        android:layout_height="70sp"
+        android:layout_marginTop="368sp"
+        android:background="#AEFFFFFF"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="Retype Password"
+        android:fontFamily="@font/amaranth"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoginText" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="411dp"
+        android:layout_marginBottom="731dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:contentDescription="cityline"
+        android:layout_width="572dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="-38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cityline" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

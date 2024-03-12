@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_transit"
+        android:icon="@drawable/green_transit"
+        android:title="@string/title_transit" />
+
+    <item
+        android:id="@+id/navigation_greenspace"
+        android:icon="@drawable/green_space"
+        android:title="@string/title_greenspace" />
+
+    <item
+        android:id="@+id/navigation_ecoeducation"
+        android:icon="@drawable/ecoeducation"
+        android:title="@string/title_ecoeducation" />
+
+    <item
+        android:id="@+id/navigation_ecorewards"
+        android:icon="@drawable/ecorewards"
+        android:title="@string/title_ecorewards" />
+
+    <item
+        android:id="@+id/navigation_user"
+        android:icon="@drawable/user"
+        android:title="@string/title_user" />
+
+</menu>

@@ -1,0 +1,590 @@
+[
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_more_adapter.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/more_adapter.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_cutlery.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/cutlery.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_badge_item.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/badge_item.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_activity_greenspace_details.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/activity_greenspace_details.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_catalog.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/catalog.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_tnc.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/tnc.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_fragment_view_ecocoins_balance.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/fragment_view_ecocoins_balance.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_card_curved_bg.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/card_curved_bg.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_saved.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/saved.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_dialog_write_review.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/dialog_write_review.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_sample_article.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/sample_article.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_activity_quiz_category.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/activity_quiz_category.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.ecoventur.app-main-59:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_ecorewards.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/ecorewards.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_item_greenspace_review.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/item_greenspace_review.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_baseline_lock_24.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/baseline_lock_24.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_quizcomplete.jpg.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/quizcomplete.jpg"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ecoventur.app-main-59:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_sdg.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/sdg.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_spinner_list.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/spinner_list.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/font_amaranth.ttf.flat",
+        "source": "com.example.ecoventur.app-main-59:/font/amaranth.ttf"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_fragment_transit.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/fragment_transit.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_time.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/time.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_green_space.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/green_space.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_badge.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/badge.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_digital_passport.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/digital_passport.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_bicycle.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/bicycle.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/xml_backup_rules.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_fragment_vouchers.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/fragment_vouchers.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_star.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/star.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_challenging_item.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/challenging_item.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_familymart.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/familymart.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_activity_register_page.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/activity_register_page.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_activity_greenspace_reviews.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/activity_greenspace_reviews.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_activity_more.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/activity_more.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_rounded_green_background.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/rounded_green_background.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/raw_badge.json.flat",
+        "source": "com.example.ecoventur.app-main-59:/raw/badge.json"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_tips.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/tips.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_green_transit.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/green_transit.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ecoventur.app-main-59:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_playing_field.jpg.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/playing_field.jpg"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ecoventur.app-main-59:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_activity_quiz.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/activity_quiz.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_cross.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/cross.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_activity_score_board.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/activity_score_board.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_layout_quiz.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/layout_quiz.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ecoventur.app-main-59:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_activity_landing_page.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/activity_landing_page.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_fragment_user.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/fragment_user.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_voucher.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/voucher.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_welcomeword.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/welcomeword.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_toggle_save_event_to_wishlist.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/toggle_save_event_to_wishlist.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_defaultprofilepic.jpg.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/defaultprofilepic.jpg"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_link.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/link.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_fragment_submit_challenge_detail.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/fragment_submit_challenge_detail.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_user_big.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/user_big.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_save.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/save.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_cityline.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/cityline.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_tag_background.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/tag_background.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_ecocoin.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/ecocoin.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_greenspace_placeholder.jpg.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/greenspace_placeholder.jpg"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_location.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/location.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_event_card.jpg.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/event_card.jpg"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_tick.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/tick.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_baseline_mode_edit_24.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/baseline_mode_edit_24.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_activity_edit_profile_picture.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/activity_edit_profile_picture.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_baseline_logout_24.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/baseline_logout_24.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_villagegrocer.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/villagegrocer.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_baseline_arrow_back_ios_24.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/baseline_arrow_back_ios_24.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_fragment_greenspace.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/fragment_greenspace.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_baseline_local_phone_24.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/baseline_local_phone_24.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.ecoventur.app-main-59:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_review_summary.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/review_summary.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_result.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/result.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_dialog_logout.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/dialog_logout.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_completed_item.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/completed_item.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_fragment_view_all_challenges.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/fragment_view_all_challenges.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_review.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/review.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_write.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/write.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_fragment_ecoeducation.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/fragment_ecoeducation.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/font_germania_one.ttf.flat",
+        "source": "com.example.ecoventur.app-main-59:/font/germania_one.ttf"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_toolbar_custom.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/toolbar_custom.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_fragment_view_all_completed.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/fragment_view_all_completed.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_baseline_arrow_back_24.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_fragment_qr_display.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/fragment_qr_display.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_pagebackground.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/pagebackground.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_participants.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/participants.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_coinbag.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/coinbag.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_item_green_space.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/item_green_space.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_quizwiz.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/quizwiz.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_fragment_view_ecorewards_catalog.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/fragment_view_ecorewards_catalog.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_entry_fee.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/entry_fee.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/raw_tips.json.flat",
+        "source": "com.example.ecoventur.app-main-59:/raw/tips.json"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_passport_icon.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/passport_icon.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_upload_placeholder.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/upload_placeholder.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_activity_main.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.ecoventur.app-main-59:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_toggle_saved_event_to_wishlist.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/toggle_saved_event_to_wishlist.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_activity_green_event_details.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/activity_green_event_details.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_pad.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/pad.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_activity_forgot_password_page.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/activity_forgot_password_page.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_close.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/close.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_fragment_submission_form.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/fragment_submission_form.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_ecocoin_small.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/ecocoin_small.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_distance.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/distance.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_activity_login_page.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/activity_login_page.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_baseline_person_24.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/baseline_person_24.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_fragment_challenge_detail.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/fragment_challenge_detail.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_baseline_quiz_24.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/baseline_quiz_24.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/font_alata.ttf.flat",
+        "source": "com.example.ecoventur.app-main-59:/font/alata.ttf"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.ecoventur.app-main-59:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_score.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/score.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_fragment_ecorewards.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/fragment_ecorewards.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_fragment_redeem_voucher.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/fragment_redeem_voucher.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_tng.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/tng.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/navigation_mobile_navigation.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_qr.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/qr.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_landingpagebackground.png.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/landingpagebackground.png"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_all_challenges_item.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/all_challenges_item.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_choice.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/choice.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.ecoventur.app-main-59:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_registration_fee.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/registration_fee.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_dialog_edit_profile.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/dialog_edit_profile.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_baseline_settings_24.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/baseline_settings_24.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_share.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/share.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_categories.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/categories.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_camping_field.jpg.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/camping_field.jpg"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_date.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/date.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_circle.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/circle.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_ecoeducation.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/ecoeducation.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_tutorials_or_articles.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/tutorials_or_articles.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_user.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/user.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_baseline_email_24.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/baseline_email_24.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_dialog_edit_phonenumber.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/dialog_edit_phonenumber.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.ecoventur.app-main-59:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_transaction.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/transaction.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/drawable/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_item_green_event.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/item_green_event.xml"
+    },
+    {
+        "merged": "com.example.ecoventur.app-merged_res-57:/layout_dialog_edit_username.xml.flat",
+        "source": "com.example.ecoventur.app-main-59:/layout/dialog_edit_username.xml"
+    }
+]

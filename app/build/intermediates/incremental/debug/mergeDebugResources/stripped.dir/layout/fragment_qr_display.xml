@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/qrdisplay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/green"
+    tools:context=".ui.ecorewards.fragments.QRDisplayFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Redeem With QR Code"
+        android:fontFamily="@font/germania_one"
+            android:textColor="@color/black"
+        android:textSize="36sp"/>
+
+    <ImageView
+        android:id="@+id/qr"
+        android:layout_width="293dp"
+        android:layout_height="294dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginBottom="71dp"
+        android:layout_gravity="center"
+        android:src="@drawable/qr"/>
+
+    <TextView
+        android:id="@+id/instruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Present this QR code at the store to redeem."
+        android:fontFamily="@font/alata"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+</LinearLayout>

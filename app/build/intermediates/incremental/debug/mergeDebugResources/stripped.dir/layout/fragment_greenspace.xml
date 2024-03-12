@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.greenspace.GreenSpaceFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/CVSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp">
+        <SearchView
+            android:id="@+id/SVGreenSpace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:queryHint="Explore Green Spaces"
+            android:iconifiedByDefault="false"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/CVMapView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp">
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/ToggleNearbyGreenSpaces"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginTop="5dp"
+                android:text="Nearby Green Spaces >"
+                android:fontFamily="@font/alata"
+                android:textSize="20sp"
+                app:cornerRadius="20dp"
+                android:elevation="20dp">
+            </Button>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewNearbyGreenSpaces"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+            <!-- RecyclerView for Nearby Green Spaces -->
+
+            <Button
+                android:id="@+id/ToggleDiscoverGreenEvents"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginTop="5dp"
+                android:text="Discover Green Events >"
+                android:fontFamily="@font/alata"
+                android:textSize="20sp"
+                app:cornerRadius="20dp"
+                android:elevation="20dp">
+            </Button>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/CVGreenEventHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+                    <TextView
+                        android:id="@+id/TVEventName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Event"/>
+                    <TextView
+                        android:id="@+id/TVDate_Venue"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Date &amp; Venue"/>
+                    <TextView
+                        android:id="@+id/TVEcoCoins"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="EcoCoins"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewDiscoverGreenEvents"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:visibility="gone">
+            </androidx.recyclerview.widget.RecyclerView>
+            <!-- Discover Green Events Dropdown -->
+
+            <Button
+                android:id="@+id/ToggleMyEventsWishlist"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginTop="5dp"
+                android:text="My Events Wishlist >"
+                android:fontFamily="@font/alata"
+                android:textSize="20sp"
+                app:cornerRadius="20dp"
+                android:elevation="20dp">
+            </Button>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/CVEventsWishlistHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Saved Event"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Date &amp; Venue"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="EcoCoins"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewMyEventsWishlist"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginBottom="5dp"
+                android:visibility="gone"/>
+            <!-- My Events Wishlist Dropdown -->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

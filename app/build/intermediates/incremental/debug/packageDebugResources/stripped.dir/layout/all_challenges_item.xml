@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    android:backgroundTint="@color/white">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <!-- Image (30%) -->
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/challenge_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:layout_margin="7dp"
+            app:riv_corner_radius="5dp"
+            android:src="@color/cardview_dark_background"
+            />
+
+        <!-- Details (70%) -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:orientation="vertical">
+
+            <!-- Tags (30%) -->
+            <LinearLayout
+                android:id="@+id/tags"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <!-- Include your tags or icons here -->
+                <!-- Tag 1: Monthly -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Monthly"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/tag_background"
+
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"/>
+
+                <!-- Tag 2: Public Transport -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Public Transport"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/tag_background"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"/>
+
+                <!-- Tag 3: 50 ecocoins -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/tag_background"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginEnd="8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="50"
+                            android:textSize="10sp"
+                            android:textColor="@color/black"/>
+
+                        <ImageView
+                            android:id="@+id/ecocoins"
+                            android:layout_width="20dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ecocoin" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Title/Name (40%) -->
+            <TextView
+                android:id="@+id/challenge_title"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:text="Challenge Title"
+                android:fontFamily="@font/alata"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="bottom"
+                android:textSize="18sp"/>
+
+            <!-- Start and End Date (30%) -->
+            <TextView
+                android:id="@+id/challenge_dates"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:text="8/1/2024 - 14/1/2024"
+                android:fontFamily="@font/alata"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

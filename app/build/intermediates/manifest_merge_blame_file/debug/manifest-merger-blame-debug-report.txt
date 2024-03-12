@@ -1,0 +1,499 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ecoventur"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:8:5-77
+14-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:8:22-74
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.google.android.libraries.places:places:3.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\f358afb615729554bbf339791d9e4e17\transformed\places-3.3.0\AndroidManifest.xml:11:5-76
+15-->[com.google.android.libraries.places:places:3.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\f358afb615729554bbf339791d9e4e17\transformed\places-3.3.0\AndroidManifest.xml:11:22-73
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:26:5-79
+16-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:26:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\BoonPing\.gradle\caches\transforms-3\b1cc9a08faf3fca80190aeaff0c73e0e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\BoonPing\.gradle\caches\transforms-3\b1cc9a08faf3fca80190aeaff0c73e0e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\BoonPing\.gradle\caches\transforms-3\b1cc9a08faf3fca80190aeaff0c73e0e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+21
+22    <queries>
+22-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\BoonPing\.gradle\caches\transforms-3\b1cc9a08faf3fca80190aeaff0c73e0e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+23
+24        <!-- Needs to be explicitly declared on Android R+ -->
+25        <package android:name="com.google.android.apps.maps" />
+25-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\BoonPing\.gradle\caches\transforms-3\b1cc9a08faf3fca80190aeaff0c73e0e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+25-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\BoonPing\.gradle\caches\transforms-3\b1cc9a08faf3fca80190aeaff0c73e0e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+26    </queries>
+27
+28    <permission
+28-->[androidx.core:core:1.9.0] C:\Users\BoonPing\.gradle\caches\transforms-3\dcdf67660313d70e6cfc88ef5bcba2e8\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+29        android:name="com.example.ecoventur.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.9.0] C:\Users\BoonPing\.gradle\caches\transforms-3\dcdf67660313d70e6cfc88ef5bcba2e8\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.9.0] C:\Users\BoonPing\.gradle\caches\transforms-3\dcdf67660313d70e6cfc88ef5bcba2e8\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.example.ecoventur.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.9.0] C:\Users\BoonPing\.gradle\caches\transforms-3\dcdf67660313d70e6cfc88ef5bcba2e8\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.9.0] C:\Users\BoonPing\.gradle\caches\transforms-3\dcdf67660313d70e6cfc88ef5bcba2e8\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:10:5-71:19
+35        android:allowBackup="true"
+35-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:11:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.9.0] C:\Users\BoonPing\.gradle\caches\transforms-3\dcdf67660313d70e6cfc88ef5bcba2e8\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+37        android:dataExtractionRules="@xml/data_extraction_rules"
+37-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:12:9-65
+38        android:debuggable="true"
+39        android:extractNativeLibs="false"
+40        android:fullBackupContent="@xml/backup_rules"
+40-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:13:9-54
+41        android:icon="@mipmap/ic_launcher"
+41-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:14:9-43
+42        android:label="@string/app_name"
+42-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:15:9-41
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:16:9-54
+44        android:supportsRtl="true"
+44-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:17:9-35
+45        android:testOnly="true"
+46        android:theme="@style/Theme.EcoVentur" >
+46-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:18:9-47
+47        <activity
+47-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:20:9-22:40
+48            android:name="com.example.ecoventur.ui.ecoeducation.activities.ScoreBoardActivity"
+48-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:21:13-74
+49            android:exported="false" />
+49-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:22:13-37
+50        <activity
+50-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:23:9-25:40
+51            android:name="com.example.ecoventur.ui.ecoeducation.activities.QuizCategoryActivity"
+51-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:24:13-76
+52            android:exported="false" />
+52-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:25:13-37
+53        <activity
+53-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:26:9-28:40
+54            android:name="com.example.ecoventur.ui.ecoeducation.activities.QuizActivity"
+54-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:27:13-68
+55            android:exported="false" />
+55-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:28:13-37
+56        <activity
+56-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:29:9-31:40
+57            android:name="com.example.ecoventur.ui.ecoeducation.activities.MoreActivity"
+57-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:30:13-68
+58            android:exported="false" />
+58-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:31:13-37
+59        <activity
+59-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:32:9-34:39
+60            android:name="com.example.ecoventur.MainActivity"
+60-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:33:13-41
+61            android:exported="true" />
+61-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:34:13-36
+62        <activity
+62-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:35:9-43:20
+63            android:name="com.example.ecoventur.ui.user.LandingPageActivity"
+63-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:36:13-56
+64            android:exported="true" >
+64-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:37:13-36
+65            <intent-filter>
+65-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:38:13-42:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:39:17-69
+66-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:39:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:41:17-77
+68-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:41:27-74
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:44:9-46:51
+72            android:name="com.example.ecoventur.ui.user.LoginPageActivity"
+72-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:45:13-54
+73            android:label="@string/title_login" />
+73-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:46:13-48
+74        <activity
+74-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:47:9-49:54
+75            android:name="com.example.ecoventur.ui.user.RegisterPageActivity"
+75-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:48:13-57
+76            android:label="@string/title_register" />
+76-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:49:13-51
+77        <activity
+77-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:50:9-52:61
+78            android:name="com.example.ecoventur.ui.user.ForgotPasswordPageActivity"
+78-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:51:13-63
+79            android:label="@string/title_forgot_password" />
+79-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:52:13-58
+80        <activity
+80-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:53:9-55:66
+81            android:name="com.example.ecoventur.ui.user.EditProfilePictureActivity"
+81-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:54:13-63
+82            android:label="@string/title_edit_profile_picture" />
+82-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:55:13-63
+83        <activity
+83-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:56:9-58:64
+84            android:name="com.example.ecoventur.ui.greenspace.GreenSpaceDetailsActivity"
+84-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:57:13-68
+85            android:label="@string/title_greenspace_details" />
+85-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:58:13-61
+86        <activity
+86-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:59:9-61:64
+87            android:name="com.example.ecoventur.ui.greenspace.GreenSpaceReviewsActivity"
+87-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:60:13-68
+88            android:label="@string/title_greenspace_reviews" />
+88-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:61:13-61
+89        <activity
+89-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:62:9-64:65
+90            android:name="com.example.ecoventur.ui.greenspace.GreenEventDetailsActivity"
+90-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:63:13-68
+91            android:label="@string/title_green_event_details" />
+91-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:64:13-62
+92
+93        <receiver android:name="com.example.ecoventur.ui.greenspace.notificationReceiver" />
+93-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:66:9-72
+93-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:66:19-69
+94
+95        <meta-data
+95-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:68:9-70:47
+96            android:name="com.google.android.geo.API_KEY"
+96-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:69:13-58
+97            android:value="@string/API_key" />
+97-->C:\Users\BoonPing\Downloads\WIA2007GA\app\src\main\AndroidManifest.xml:70:13-44
+98
+99        <activity
+99-->[com.google.android.libraries.places:places:3.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\f358afb615729554bbf339791d9e4e17\transformed\places-3.3.0\AndroidManifest.xml:15:9-21:20
+100            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+100-->[com.google.android.libraries.places:places:3.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\f358afb615729554bbf339791d9e4e17\transformed\places-3.3.0\AndroidManifest.xml:16:13-91
+101            android:exported="false"
+101-->[com.google.android.libraries.places:places:3.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\f358afb615729554bbf339791d9e4e17\transformed\places-3.3.0\AndroidManifest.xml:17:13-37
+102            android:label="@string/places_autocomplete_label"
+102-->[com.google.android.libraries.places:places:3.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\f358afb615729554bbf339791d9e4e17\transformed\places-3.3.0\AndroidManifest.xml:18:13-62
+103            android:theme="@style/PlacesAutocompleteOverlay"
+103-->[com.google.android.libraries.places:places:3.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\f358afb615729554bbf339791d9e4e17\transformed\places-3.3.0\AndroidManifest.xml:19:13-61
+104            android:windowSoftInputMode="adjustResize" >
+104-->[com.google.android.libraries.places:places:3.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\f358afb615729554bbf339791d9e4e17\transformed\places-3.3.0\AndroidManifest.xml:20:13-55
+105        </activity>
+106        <activity
+106-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:29:9-46:20
+107            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+107-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:30:13-80
+108            android:excludeFromRecents="true"
+108-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:31:13-46
+109            android:exported="true"
+109-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:32:13-36
+110            android:launchMode="singleTask"
+110-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:33:13-44
+111            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+111-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:34:13-72
+112            <intent-filter>
+112-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:35:13-45:29
+113                <action android:name="android.intent.action.VIEW" />
+113-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+113-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+114
+115                <category android:name="android.intent.category.DEFAULT" />
+115-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+115-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+116                <category android:name="android.intent.category.BROWSABLE" />
+116-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+116-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+117
+118                <data
+118-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+119                    android:host="firebase.auth"
+119-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+120                    android:path="/"
+120-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+121                    android:scheme="genericidp" />
+121-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+122            </intent-filter>
+123        </activity>
+124        <activity
+124-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:47:9-64:20
+125            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+125-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:48:13-79
+126            android:excludeFromRecents="true"
+126-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:49:13-46
+127            android:exported="true"
+127-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:50:13-36
+128            android:launchMode="singleTask"
+128-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:51:13-44
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+129-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:52:13-72
+130            <intent-filter>
+130-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:53:13-63:29
+131                <action android:name="android.intent.action.VIEW" />
+131-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+131-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+132
+133                <category android:name="android.intent.category.DEFAULT" />
+133-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+133-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+134                <category android:name="android.intent.category.BROWSABLE" />
+134-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+134-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+135
+136                <data
+136-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+137                    android:host="firebase.auth"
+137-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+138                    android:path="/"
+138-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+139                    android:scheme="recaptcha" />
+139-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+140            </intent-filter>
+141        </activity>
+142
+143        <service
+143-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:66:9-72:19
+144            android:name="com.google.firebase.components.ComponentDiscoveryService"
+144-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:67:13-84
+145            android:directBootAware="true"
+145-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BoonPing\.gradle\caches\transforms-3\e521d7c14c22e45c7b1a09326a4e275c\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+146            android:exported="false" >
+146-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:68:13-37
+147            <meta-data
+147-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:69:13-71:85
+148                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+148-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:70:17-109
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\a98e062d16e33249e0a2b7f2884101a9\transformed\firebase-auth-22.3.0\AndroidManifest.xml:71:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-firestore:24.10.0] C:\Users\BoonPing\.gradle\caches\transforms-3\0d7c79d7fa1b21cea5c43df697f59ae8\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:17:13-19:85
+151                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+151-->[com.google.firebase:firebase-firestore:24.10.0] C:\Users\BoonPing\.gradle\caches\transforms-3\0d7c79d7fa1b21cea5c43df697f59ae8\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:18:17-122
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-firestore:24.10.0] C:\Users\BoonPing\.gradle\caches\transforms-3\0d7c79d7fa1b21cea5c43df697f59ae8\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:19:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-firestore:24.10.0] C:\Users\BoonPing\.gradle\caches\transforms-3\0d7c79d7fa1b21cea5c43df697f59ae8\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:20:13-22:85
+154                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+154-->[com.google.firebase:firebase-firestore:24.10.0] C:\Users\BoonPing\.gradle\caches\transforms-3\0d7c79d7fa1b21cea5c43df697f59ae8\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:21:17-111
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-firestore:24.10.0] C:\Users\BoonPing\.gradle\caches\transforms-3\0d7c79d7fa1b21cea5c43df697f59ae8\transformed\firebase-firestore-24.10.0\AndroidManifest.xml:22:17-82
+156            <meta-data
+156-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\ec624fe7b90eb86d66359f6da9a04f57\transformed\firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
+157                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+157-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\ec624fe7b90eb86d66359f6da9a04f57\transformed\firebase-storage-20.3.0\AndroidManifest.xml:31:17-118
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\ec624fe7b90eb86d66359f6da9a04f57\transformed\firebase-storage-20.3.0\AndroidManifest.xml:32:17-82
+159            <meta-data
+159-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\ec624fe7b90eb86d66359f6da9a04f57\transformed\firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
+160                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+160-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\ec624fe7b90eb86d66359f6da9a04f57\transformed\firebase-storage-20.3.0\AndroidManifest.xml:34:17-107
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\ec624fe7b90eb86d66359f6da9a04f57\transformed\firebase-storage-20.3.0\AndroidManifest.xml:35:17-82
+162            <meta-data
+162-->[com.google.firebase:firebase-appcheck:17.1.0] C:\Users\BoonPing\.gradle\caches\transforms-3\36559e7aa17c3132087f33390868b9b6\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:25:13-27:85
+163                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+163-->[com.google.firebase:firebase-appcheck:17.1.0] C:\Users\BoonPing\.gradle\caches\transforms-3\36559e7aa17c3132087f33390868b9b6\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:26:17-120
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[com.google.firebase:firebase-appcheck:17.1.0] C:\Users\BoonPing\.gradle\caches\transforms-3\36559e7aa17c3132087f33390868b9b6\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:27:17-82
+165            <meta-data
+165-->[com.google.firebase:firebase-appcheck:17.1.0] C:\Users\BoonPing\.gradle\caches\transforms-3\36559e7aa17c3132087f33390868b9b6\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:28:13-30:85
+166                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+166-->[com.google.firebase:firebase-appcheck:17.1.0] C:\Users\BoonPing\.gradle\caches\transforms-3\36559e7aa17c3132087f33390868b9b6\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:29:17-117
+167                android:value="com.google.firebase.components.ComponentRegistrar" />
+167-->[com.google.firebase:firebase-appcheck:17.1.0] C:\Users\BoonPing\.gradle\caches\transforms-3\36559e7aa17c3132087f33390868b9b6\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:30:17-82
+168            <meta-data
+168-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\BoonPing\.gradle\caches\transforms-3\a7dd0f7475b516b2b656bd82e36baebf\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+169                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+169-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\BoonPing\.gradle\caches\transforms-3\a7dd0f7475b516b2b656bd82e36baebf\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+170                android:value="com.google.firebase.components.ComponentRegistrar" />
+170-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\BoonPing\.gradle\caches\transforms-3\a7dd0f7475b516b2b656bd82e36baebf\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+171            <meta-data
+171-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BoonPing\.gradle\caches\transforms-3\e521d7c14c22e45c7b1a09326a4e275c\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+172                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+172-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BoonPing\.gradle\caches\transforms-3\e521d7c14c22e45c7b1a09326a4e275c\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+173                android:value="com.google.firebase.components.ComponentRegistrar" />
+173-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BoonPing\.gradle\caches\transforms-3\e521d7c14c22e45c7b1a09326a4e275c\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+174        </service>
+175
+176        <provider
+176-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BoonPing\.gradle\caches\transforms-3\001137ed51addaf25eb973909d8cce40\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+177            android:name="androidx.startup.InitializationProvider"
+177-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BoonPing\.gradle\caches\transforms-3\001137ed51addaf25eb973909d8cce40\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+178            android:authorities="com.example.ecoventur.androidx-startup"
+178-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BoonPing\.gradle\caches\transforms-3\001137ed51addaf25eb973909d8cce40\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+179            android:exported="false" >
+179-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BoonPing\.gradle\caches\transforms-3\001137ed51addaf25eb973909d8cce40\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+180            <meta-data
+180-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BoonPing\.gradle\caches\transforms-3\001137ed51addaf25eb973909d8cce40\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+181                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+181-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BoonPing\.gradle\caches\transforms-3\001137ed51addaf25eb973909d8cce40\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+182                android:value="androidx.startup" />
+182-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BoonPing\.gradle\caches\transforms-3\001137ed51addaf25eb973909d8cce40\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+183            <meta-data
+183-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\BoonPing\.gradle\caches\transforms-3\8bb824e51ed85a8dd768799fcf4eecfc\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+184                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+184-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\BoonPing\.gradle\caches\transforms-3\8bb824e51ed85a8dd768799fcf4eecfc\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+185                android:value="androidx.startup" />
+185-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\BoonPing\.gradle\caches\transforms-3\8bb824e51ed85a8dd768799fcf4eecfc\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+186            <meta-data
+186-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+187                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+187-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+188                android:value="androidx.startup" />
+188-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+189        </provider>
+190
+191        <activity
+191-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BoonPing\.gradle\caches\transforms-3\7e5b31a1f99d55c726d5bff4bfa20812\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+192            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+192-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BoonPing\.gradle\caches\transforms-3\7e5b31a1f99d55c726d5bff4bfa20812\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+193            android:excludeFromRecents="true"
+193-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BoonPing\.gradle\caches\transforms-3\7e5b31a1f99d55c726d5bff4bfa20812\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+194            android:exported="false"
+194-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BoonPing\.gradle\caches\transforms-3\7e5b31a1f99d55c726d5bff4bfa20812\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+195            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+195-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BoonPing\.gradle\caches\transforms-3\7e5b31a1f99d55c726d5bff4bfa20812\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+196        <!--
+197            Service handling Google Sign-In user revocation. For apps that do not integrate with
+198            Google Sign-In, this service will never be started.
+199        -->
+200        <service
+200-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BoonPing\.gradle\caches\transforms-3\7e5b31a1f99d55c726d5bff4bfa20812\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+201            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+201-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BoonPing\.gradle\caches\transforms-3\7e5b31a1f99d55c726d5bff4bfa20812\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+202            android:exported="true"
+202-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BoonPing\.gradle\caches\transforms-3\7e5b31a1f99d55c726d5bff4bfa20812\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+203            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+203-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BoonPing\.gradle\caches\transforms-3\7e5b31a1f99d55c726d5bff4bfa20812\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+204            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+204-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BoonPing\.gradle\caches\transforms-3\7e5b31a1f99d55c726d5bff4bfa20812\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+205        <uses-library
+205-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\BoonPing\.gradle\caches\transforms-3\b1cc9a08faf3fca80190aeaff0c73e0e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+206            android:name="org.apache.http.legacy"
+206-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\BoonPing\.gradle\caches\transforms-3\b1cc9a08faf3fca80190aeaff0c73e0e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+207            android:required="false" />
+207-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\BoonPing\.gradle\caches\transforms-3\b1cc9a08faf3fca80190aeaff0c73e0e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+208
+209        <activity
+209-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\BoonPing\.gradle\caches\transforms-3\5a6e0c348d82c003261a7ad641c50986\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+210            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+210-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\BoonPing\.gradle\caches\transforms-3\5a6e0c348d82c003261a7ad641c50986\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+211            android:exported="false"
+211-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\BoonPing\.gradle\caches\transforms-3\5a6e0c348d82c003261a7ad641c50986\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+212            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+212-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\BoonPing\.gradle\caches\transforms-3\5a6e0c348d82c003261a7ad641c50986\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+213
+214        <provider
+214-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BoonPing\.gradle\caches\transforms-3\e521d7c14c22e45c7b1a09326a4e275c\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+215            android:name="com.google.firebase.provider.FirebaseInitProvider"
+215-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BoonPing\.gradle\caches\transforms-3\e521d7c14c22e45c7b1a09326a4e275c\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+216            android:authorities="com.example.ecoventur.firebaseinitprovider"
+216-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BoonPing\.gradle\caches\transforms-3\e521d7c14c22e45c7b1a09326a4e275c\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+217            android:directBootAware="true"
+217-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BoonPing\.gradle\caches\transforms-3\e521d7c14c22e45c7b1a09326a4e275c\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+218            android:exported="false"
+218-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BoonPing\.gradle\caches\transforms-3\e521d7c14c22e45c7b1a09326a4e275c\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+219            android:initOrder="100" />
+219-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BoonPing\.gradle\caches\transforms-3\e521d7c14c22e45c7b1a09326a4e275c\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+220
+221        <uses-library
+221-->[androidx.window:window:1.0.0] C:\Users\BoonPing\.gradle\caches\transforms-3\c8066bbf21dff57391e07b0ca4cd2d17\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+222            android:name="androidx.window.extensions"
+222-->[androidx.window:window:1.0.0] C:\Users\BoonPing\.gradle\caches\transforms-3\c8066bbf21dff57391e07b0ca4cd2d17\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+223            android:required="false" />
+223-->[androidx.window:window:1.0.0] C:\Users\BoonPing\.gradle\caches\transforms-3\c8066bbf21dff57391e07b0ca4cd2d17\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+224        <uses-library
+224-->[androidx.window:window:1.0.0] C:\Users\BoonPing\.gradle\caches\transforms-3\c8066bbf21dff57391e07b0ca4cd2d17\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+225            android:name="androidx.window.sidecar"
+225-->[androidx.window:window:1.0.0] C:\Users\BoonPing\.gradle\caches\transforms-3\c8066bbf21dff57391e07b0ca4cd2d17\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+226            android:required="false" />
+226-->[androidx.window:window:1.0.0] C:\Users\BoonPing\.gradle\caches\transforms-3\c8066bbf21dff57391e07b0ca4cd2d17\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+227
+228        <meta-data
+228-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\BoonPing\.gradle\caches\transforms-3\7fa10b90b7735613a36567b690cb029a\transformed\play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+229            android:name="com.google.android.gms.version"
+229-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\BoonPing\.gradle\caches\transforms-3\7fa10b90b7735613a36567b690cb029a\transformed\play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+230            android:value="@integer/google_play_services_version" />
+230-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\BoonPing\.gradle\caches\transforms-3\7fa10b90b7735613a36567b690cb029a\transformed\play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+231
+232        <receiver
+232-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+233            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+233-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+234            android:directBootAware="false"
+234-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+235            android:enabled="true"
+235-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+236            android:exported="true"
+236-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+237            android:permission="android.permission.DUMP" >
+237-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+238            <intent-filter>
+238-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+239                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+239-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+239-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+240            </intent-filter>
+241            <intent-filter>
+241-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+242                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+242-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+242-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+243            </intent-filter>
+244            <intent-filter>
+244-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+245                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+245-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+245-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+246            </intent-filter>
+247            <intent-filter>
+247-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+248                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+248-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+248-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\399d8e613dedc36186610d0b63c6477f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+249            </intent-filter>
+250        </receiver>
+251
+252        <service
+252-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\035be7914ec967aaf0132fc9bd87e60f\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+253            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+253-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\035be7914ec967aaf0132fc9bd87e60f\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+254            android:exported="false" >
+254-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\035be7914ec967aaf0132fc9bd87e60f\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+255            <meta-data
+255-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\035be7914ec967aaf0132fc9bd87e60f\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+256                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+256-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\035be7914ec967aaf0132fc9bd87e60f\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+257                android:value="cct" />
+257-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\BoonPing\.gradle\caches\transforms-3\035be7914ec967aaf0132fc9bd87e60f\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+258        </service>
+259        <service
+259-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\BoonPing\.gradle\caches\transforms-3\5a241a00f1bf5f784b6b5f0f85889c23\transformed\transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+260            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+260-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\BoonPing\.gradle\caches\transforms-3\5a241a00f1bf5f784b6b5f0f85889c23\transformed\transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+261            android:exported="false"
+261-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\BoonPing\.gradle\caches\transforms-3\5a241a00f1bf5f784b6b5f0f85889c23\transformed\transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+262            android:permission="android.permission.BIND_JOB_SERVICE" >
+262-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\BoonPing\.gradle\caches\transforms-3\5a241a00f1bf5f784b6b5f0f85889c23\transformed\transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+263        </service>
+264
+265        <receiver
+265-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\BoonPing\.gradle\caches\transforms-3\5a241a00f1bf5f784b6b5f0f85889c23\transformed\transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+266            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+266-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\BoonPing\.gradle\caches\transforms-3\5a241a00f1bf5f784b6b5f0f85889c23\transformed\transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+267            android:exported="false" />
+267-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\BoonPing\.gradle\caches\transforms-3\5a241a00f1bf5f784b6b5f0f85889c23\transformed\transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+268    </application>
+269
+270</manifest>

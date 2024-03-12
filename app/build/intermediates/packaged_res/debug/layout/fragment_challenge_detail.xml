@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <!-- Challenge Image -->
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/challengeImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@color/cardview_dark_background"
+        android:layout_marginTop="16dp"
+        app:riv_corner_radius="7dp"
+        android:scaleType="centerCrop"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/challengeImage"
+        android:layout_marginTop="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/challengeOverview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Challenge Title -->
+                <TextView
+                    android:id="@+id/challengeTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Walking Warrior"
+                    android:fontFamily="@font/alata"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+
+                <!-- Ecocoins -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <!-- Ecocoins TextView -->
+                    <TextView
+                        android:id="@+id/ecocoins"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="50"
+                        android:fontFamily="@font/alata"
+                        android:textSize="18sp" />
+
+                    <!-- Ecocoins Image -->
+                    <ImageView
+                        android:id="@+id/ecocoinsImage"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:contentDescription="Ecocoin Image"
+                        android:src="@drawable/ecocoin" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Start and End Date -->
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_below="@id/challengeOverview"
+                android:layout_marginTop="0dp"
+                android:text="15/1/2024 - 21/1/2024"
+                android:fontFamily="@font/alata"
+                android:textStyle="bold"
+                tools:ignore="NotSibling" />
+
+            <!-- Description -->
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="Join the Weekly Walking Challenge and prioritize sustainable commuting by incorporating walking into your weekly routine. This challenge encourages participants to embrace walking as a primary mode of transportation."
+                android:fontFamily="@font/alata"
+                android:layout_below="@id/date"
+                android:layout_marginTop="16dp"/>
+
+            <!-- Rules -->
+            <TextView
+                android:id="@+id/rules"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/description"
+                android:text="Rules:"
+                android:fontFamily="@font/alata"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/rule1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="1. Commit to walking as your primary mode of commuting for the entire week during the challenge period."
+                android:fontFamily="@font/alata"
+                android:layout_below="@id/rules"/>
+
+            <TextView
+                android:id="@+id/rule2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="2. Maintain a record of your weekly walking commutes, noting the distance covered."
+                android:fontFamily="@font/alata"
+                android:layout_below="@id/rule1"/>
+
+            <TextView
+                android:id="@+id/rule3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="3. Upload a screenshot as the proof for this activities."
+                android:fontFamily="@font/alata"
+                android:layout_below="@id/rule2"/>
+
+            <!-- Join Button -->
+            <Button
+                android:id="@+id/joinButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_gravity="center"
+                android:text="Join"
+                android:layout_below="@id/rule3"/>
+        </LinearLayout>
+    </ScrollView>
+    <!-- Challenge Title and Ecocoins -->
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">21562411440-ejdeeqtlrt4rrs9u07rvpajcc05hd52f.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://ecoventur-405507-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">21562411440</string>
+    <string name="google_api_key" translatable="false">AIzaSyBhIB1eu6LLbRIzCzdxo2j0pwg78qJrTPI</string>
+    <string name="google_app_id" translatable="false">1:21562411440:android:7f1ff2675d18f493e4ee75</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBhIB1eu6LLbRIzCzdxo2j0pwg78qJrTPI</string>
+    <string name="google_storage_bucket" translatable="false">ecoventur-405507.appspot.com</string>
+    <string name="project_id" translatable="false">ecoventur-405507</string>
+</resources>

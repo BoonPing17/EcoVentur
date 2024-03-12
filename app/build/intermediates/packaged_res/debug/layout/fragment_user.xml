@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8AF8BC"
+    android:orientation="vertical"
+    tools:context=".ui.user.UserFragment">
+
+    <ImageView
+        android:id="@+id/ProfilePicture"
+        android:layout_width="149dp"
+        android:layout_height="131dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/user_big" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Username"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/black"
+        android:textSize="34sp"/>
+
+    <Button
+        android:id="@+id/EcoCoin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:backgroundTint="#FFFFFF"
+        android:drawableLeft="@drawable/ecocoin_small"
+        android:drawablePadding="15dp"
+        android:text="0 EcoCoins"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="20dp"/>
+
+    <Button
+        android:id="@+id/displayemail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:backgroundTint="#FFFFFF"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawablePadding="20dp"
+        android:text="Email Address"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="20dp"/>
+
+    <Button
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:backgroundTint="#FFFFFF"
+        android:drawableLeft="@drawable/baseline_local_phone_24"
+        android:drawablePadding="20dp"
+        android:text="Phone Number"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="20dp"/>
+
+    <Button
+        android:id="@+id/editprofile"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/yellow"
+        android:drawableLeft="@drawable/baseline_mode_edit_24"
+        android:drawablePadding="20dp"
+        android:text="Edit Profile"
+        android:fontFamily="@font/amaranth"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="20dp"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/yellow"
+        android:drawableLeft="@drawable/baseline_logout_24"
+        android:drawablePadding="20dp"
+        android:text="LOGOUT"
+        android:fontFamily="@font/amaranth"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="40dp"/>
+</LinearLayout>

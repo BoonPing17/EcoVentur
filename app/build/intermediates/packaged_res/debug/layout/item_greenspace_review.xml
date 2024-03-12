@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="2dp"
+    android:backgroundTint="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/TVReviewerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reviewer Name"
+            android:fontFamily="@font/alata"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="5dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/TVReviewRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rated: x.x/5"
+                android:fontFamily="@font/alata"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:layout_marginLeft="5dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/star"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_gravity="bottom"
+                android:padding="2dp"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/TVReviewDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Review Description"
+            android:fontFamily="@font/alata"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_margin="5dp"/>
+        <ImageView
+            android:id="@+id/IVReviewImage"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:id="@+id/TVReviewTimestamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:fontFamily="@font/alata"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:text="Posted on dd/mm/yyyy hh:mm:ss."
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

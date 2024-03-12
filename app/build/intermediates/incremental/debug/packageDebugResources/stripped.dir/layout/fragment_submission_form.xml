@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal"
+    android:padding="16dp">
+
+    <!-- Challenge Selection -->
+    <Spinner
+        android:id="@+id/challengeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <!-- Image Upload -->
+    <FrameLayout
+        android:id="@+id/imageUploadLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp">
+
+        <!-- Box (initially visible) -->
+        <View
+            android:id="@+id/boxView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/tag_background"
+            android:visibility="visible" />
+
+        <!-- Image Preview -->
+        <GridLayout
+            android:id="@+id/imagePreviewLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="5"
+            android:orientation="horizontal"
+            android:layout_gravity="top"
+            android:layout_marginTop="8dp"></GridLayout>
+
+        <!-- Camera icon (inside the box) -->
+        <ImageView
+            android:id="@+id/cameraIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:src="@android:drawable/ic_menu_camera"
+            android:visibility="visible"/>
+
+    </FrameLayout>
+
+    <!-- Description Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/descriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="textMultiLine"
+            android:lines="4"
+            android:gravity="bottom"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+</LinearLayout>
